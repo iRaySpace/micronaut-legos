@@ -37,6 +37,9 @@ tasks {
         from {
             image = "eclipse-temurin:21-jre"
         }
+        to {
+            image = 'irayspace/hello-server'
+        }
     }
 }
 graalvmNative.toolchainDetection = false
